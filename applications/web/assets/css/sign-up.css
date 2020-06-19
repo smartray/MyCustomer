@@ -167,3 +167,39 @@ footer ul li a:hover {
     padding: 0 1rem;
   }
 }
+@media (max-height: 740px) {
+  main .container h1 {
+    margin-bottom: 2rem;
+  }
+  main {
+    height: auto;
+  }
+}
+@media (max-height: 675px) {
+  input {
+    margin-bottom: 2rem;
+  }
+  .container {
+    padding-top: 0;
+    margin-bottom: 1rem;
+  }
+  .terms {
+    margin-bottom: 1rem;
+  }
+}
+@media (max-height: 575px) {
+  nav {
+    padding-top: 0.5rem;
+    align-items: flex-start;
+  }
+  input {
+    margin-bottom: 1.5rem;
+  }
+  .container {
+    padding-top: 0;
+    margin-bottom: 1rem;
+  }
+  .terms {
+    margin-bottom: 1rem;
+  }
+}
